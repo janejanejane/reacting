@@ -1,0 +1,24 @@
+{
+  "name": "reacting",
+  "version": "1.0.0",
+  "description": "Another react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janejanejane/reacting.git"
+  },
+  "author": "Jean Claudette Ambait",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janejanejane/reacting/issues"
+  },
+  "homepage": "https://github.com/janejanejane/reacting#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.3.13",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  }
+}
