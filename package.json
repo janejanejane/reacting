@@ -23,7 +23,8 @@
     "immutable": "^3.7.6",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
-    "redux": "^3.2.1"
+    "redux": "^3.2.1",
+    "socket.io-client": "^1.4.5"
   },
   "devDependencies": {
     "babel-cli": "^6.3.17",
