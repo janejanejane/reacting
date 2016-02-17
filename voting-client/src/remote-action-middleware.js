@@ -1,4 +1,4 @@
 export default store => next => action => {
-    console.log( 'in middleware', action );
+    socket.emite( 'action', action );
     return next( action );
 }

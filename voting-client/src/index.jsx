@@ -12,7 +12,7 @@ import { VotingContainer } from './components/Voting';
 import { ResultsContainer } from './components/Results';
 
 const createStoreWithMiddleware = applyMiddleware(
-    remoteActionMiddleware
+    remoteActionMiddleware( socket )
 )( createStore );
 const store = createStore( reducer );
 store.dispatch({
