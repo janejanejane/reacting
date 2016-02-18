@@ -1,4 +1,6 @@
 export default store => next => action => {
-    socket.emite( 'action', action );
+    if ( action.meta && action.meta.route ) {
+        socket.emite( 'action', action );
+    }
     return next( action );
 }
